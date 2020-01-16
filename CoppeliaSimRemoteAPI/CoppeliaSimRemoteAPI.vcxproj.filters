@@ -13,5 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="VREP">
+      <UniqueIdentifier>{289dce17-40a1-4fda-9d47-949cbc247a98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vrep\remoteAPI\extApi.c">
+      <Filter>VREP</Filter>
+    </ClCompile>
+    <ClCompile Include="Vrep\remoteAPI\extApiPlatform.c">
+      <Filter>VREP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vrep\remoteAPI\extApi.h">
+      <Filter>VREP</Filter>
+    </ClInclude>
+    <ClInclude Include="Vrep\remoteAPI\extApiInternal.h">
+      <Filter>VREP</Filter>
+    </ClInclude>
+    <ClInclude Include="Vrep\remoteAPI\extApiPlatform.h">
+      <Filter>VREP</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
